@@ -23,6 +23,7 @@
 		"gh-pages": "^4.0.0"
 	},
 	"scripts": {
+		"send-it": "node pages.js matthewvilaysack main",
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build",
 		"start": "react-scripts start",
